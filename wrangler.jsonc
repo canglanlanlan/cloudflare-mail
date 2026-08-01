@@ -1,0 +1,35 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "temp-inbox-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-07-01",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "routes": [
+    {
+      "pattern": "mail.example.com",
+      "custom_domain": true
+    }
+  ],
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "INBOX_DOMAIN": "example.com",
+    "DEFAULT_TTL_HOURS": "1",
+    "MAX_ATTACHMENT_BYTES": "10000000"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "temp_inbox",
+      "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+    }
+  ],
+  "triggers": {
+    "crons": [
+      "0 * * * *"
+    ]
+  }
+}

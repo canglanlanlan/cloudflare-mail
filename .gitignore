@@ -1,0 +1,9 @@
+node_modules/
+.wrangler/
+.DS_Store
+dist/
+.dev.vars
+.env
+.env.*
+cookies*.txt
+*.local

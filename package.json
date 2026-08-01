@@ -1,0 +1,31 @@
+{
+  "name": "temp-inbox-worker",
+  "description": "Temporary email inbox template built on Cloudflare Workers, D1, and Email Routing.",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "cloudflare-workers",
+    "temp-mail",
+    "temporary-email",
+    "disposable-email",
+    "d1",
+    "email-routing",
+    "typescript"
+  ],
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "cf-typegen": "wrangler types",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "postal-mime": "^2.6.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260620.0",
+    "typescript": "^5.9.2",
+    "wrangler": "^4.24.3"
+  }
+}
