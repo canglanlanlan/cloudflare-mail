@@ -189,3 +189,5 @@ MIT. See [LICENSE](/D:/Codex/Mail/LICENSE).
 - Contribution guide: [CONTRIBUTING](/D:/Codex/Mail/CONTRIBUTING.md)
 - Code of Conduct: [CODE_OF_CONDUCT](/D:/Codex/Mail/CODE_OF_CONDUCT.md)
 - Security policy: [SECURITY](/D:/Codex/Mail/SECURITY.md)
+- Changelog: [CHANGELOG](/D:/Codex/Mail/CHANGELOG.md)
+- Release guide: [RELEASING](/D:/Codex/Mail/RELEASING.md)
