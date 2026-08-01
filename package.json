@@ -2,9 +2,17 @@
   "name": "temp-inbox-worker",
   "description": "Temporary email inbox template built on Cloudflare Workers, D1, and Email Routing.",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "license": "MIT",
   "type": "module",
+  "homepage": "https://github.com/canglanlanlan/cloudflare-mail",
+  "bugs": {
+    "url": "https://github.com/canglanlanlan/cloudflare-mail/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canglanlanlan/cloudflare-mail.git"
+  },
   "keywords": [
     "cloudflare-workers",
     "temp-mail",
