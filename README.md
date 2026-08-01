@@ -183,3 +183,9 @@ Do not commit:
 ## License
 
 MIT. See [LICENSE](/D:/Codex/Mail/LICENSE).
+
+## Community
+
+- Contribution guide: [CONTRIBUTING](/D:/Codex/Mail/CONTRIBUTING.md)
+- Code of Conduct: [CODE_OF_CONDUCT](/D:/Codex/Mail/CODE_OF_CONDUCT.md)
+- Security policy: [SECURITY](/D:/Codex/Mail/SECURITY.md)
